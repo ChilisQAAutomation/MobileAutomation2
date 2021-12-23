@@ -149,6 +149,7 @@ public RemoteWebDriver driver = null;
 //TC09 - validate price for all menu items - IJW by Srividhya - 06-28-2021 begin
 	//@Test
 	@Test(priority=8)
+
 	public void TC09_IJW_ValidateMenuPrice() {
 		
 		Logger log = LogManager.getLogger("TestValidateMenuPrice");

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="UberEats">
+<listeners>
+<listener class-name="com.listener.framework.Listeners"/>
+<listener class-name="com.retryconfig.framework.Transformer"/>
+</listeners>
+<test name="Test Uber Eats in Web browser">
+<classes>
+<class name="com.testscripts.framework.TestUberEats">
+<methods>
+<exclude name="TC01_UberEats_ValidateIsStoreEnabled"/>
+<exclude name="TC02_UberEats_ValidateStoreHomepage"/>
+<exclude name="TC03_UberEats_HomePage_UI"/>
+<include name="TC04_UberEats_ValidateMenuCategory"/>
+<exclude name="TC05_UberEats_ValidateMenuItemDescription"/>
+<exclude name="TC06_UberEats_ValidateMenuPrice"/>
+<exclude name="TC09_UberEats_ValidateMenuItemIncreaseDecrease"/>
+<exclude name="TC08_UberEats_Verify_AddtoCart"/>
+<exclude name="TC49_UberEats_changeQuantityAtCheckoutPage"/>
+<exclude name="TC50_UberEats_RemoveQuantityAtCheckoutPage"/>
+<exclude name="TC10_UberEats_Verify_OrderModes"/>
+<exclude name="TC31_UberEats_ValidateDifferentTimezoneOrder"/>
+<exclude name="TC23_UberEats_ValidateOrderSLDelivery"/>
+<exclude name="TC22_UberEats_ValidateOrderASAPDelivery"/>
+<exclude name="TC35_UberEats_ValidateOrders"/>
+<exclude name="TC36_UberEats_Verify_PastOrderItemAndPrice"/>
+<exclude name="TC51_UberEats_VERIFY_MultipleItemOrder"/>
+<exclude name="TC52_UberEats_ValidateItemCustomization"/>
+<exclude name="TC53_UberEats_Verify_AddItemInCheckoutPage"/>
+<exclude name="TC28_UberEats_VerifyOrderDetails"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

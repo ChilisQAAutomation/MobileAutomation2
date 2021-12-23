@@ -1,0 +1,42 @@
+00:10:09.735 [main] INFO  TestVerifyAddToCart - ******TC90_DOORDASH_CHROME : Starting to Verify AddtoCart and Checkout of Doordash Chilis WebApp******
+00:10:22.886 [main] INFO  TestVerifyAddToCart - Site launch successful, site name : https://www.doordash.com/store/chili's-grill-&-bar-murrieta-1475670/
+00:10:24.196 [main] ERROR TestVerifyAddToCart - Hamburger Menu button click failed
+00:10:24.211 [main] ERROR TestVerifyAddToCart - element click intercepted: Element <button class="sc-izvnbC jhqntj" size="16" shape="Circle" type="button" kind="BUTTON/PLAIN" aria-label="Open Menu">...</button> is not clickable at point (20, 23). Other element would receive the click: <div class="sc-hZSUBg eeTJNT" kind="OVERLAY/DARK"></div>
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DHQWB1', ip: '10.254.55.51', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\spaul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:18818}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b08936dbe2c64c87955ed3e7c0a4eecc
+00:10:27.055 [main] INFO  TestVerifyAddToCart - ******TC90_DOORDASH_CHROME : Starting to Verify AddtoCart and Checkout of Doordash Chilis WebApp******
+00:10:41.137 [main] INFO  TestVerifyAddToCart - Site launch successful, site name : https://www.doordash.com/store/chili's-grill-&-bar-murrieta-1475670/
+00:10:42.379 [main] ERROR TestVerifyAddToCart - Hamburger Menu button click failed
+00:10:42.381 [main] ERROR TestVerifyAddToCart - element click intercepted: Element <button class="sc-izvnbC jhqntj" size="16" shape="Circle" type="button" kind="BUTTON/PLAIN" aria-label="Open Menu">...</button> is not clickable at point (20, 23). Other element would receive the click: <div class="sc-hZSUBg eeTJNT" kind="OVERLAY/DARK"></div>
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DHQWB1', ip: '10.254.55.51', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\spaul\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:18937}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: cf88cfc74e5131c18a37686599116171
+00:15:31.031 [main] INFO  TestValidateOpenStore - ******TC01_UE_CHROME : Starting to Validate If  store-6 is opened in uber eats******
+00:16:36.758 [main] ERROR TestValidateOpenStore - Uber Eats site launch failed
+00:16:36.781 [main] ERROR TestValidateOpenStore - Expected condition failed: waiting for presence of element located by: By.xpath: //hh1[contains(text(),'')] (tried for 60 second(s) with 500 milliseconds interval)
+00:16:40.222 [main] INFO  TestValidateOpenStore - ******TC01_UE_CHROME : Starting to Validate If  store-6 is opened in uber eats******
+00:17:31.987 [main] INFO  TestValidateMenuCategory - ******TC04_UE_CHROME : Starting to Validate If  all the menu categories are present in uber eats******
+00:17:46.426 [main] ERROR TestValidateOpenStore - Uber Eats site launch failed
+00:17:46.429 [main] ERROR TestValidateOpenStore - Expected condition failed: waiting for presence of element located by: By.xpath: //hh1[contains(text(),'')] (tried for 60 second(s) with 500 milliseconds interval)
+00:18:38.381 [main] ERROR TestValidateMenuCategory - Uber Eats site launch failed
+00:18:38.394 [main] ERROR TestValidateMenuCategory - Expected condition failed: waiting for presence of element located by: By.xpath: //hh1[contains(text(),'')] (tried for 60 second(s) with 500 milliseconds interval)
+00:18:41.754 [main] INFO  TestValidateMenuCategory - ******TC04_UE_CHROME : Starting to Validate If  all the menu categories are present in uber eats******
+00:22:13.227 [main] INFO  TestValidateMenuPrice - ******TC06_UE_CHROME : Starting to Validate If Price is displayed for all the menu categories in uber eats******
+00:23:19.028 [main] ERROR TestValidateMenuPrice - Uber Eats site launch failed
+00:23:19.050 [main] ERROR TestValidateMenuPrice - Expected condition failed: waiting for presence of element located by: By.xpath: //hh1[contains(text(),'')] (tried for 60 second(s) with 500 milliseconds interval)
+00:23:22.614 [main] INFO  TestValidateMenuPrice - ******TC06_UE_CHROME : Starting to Validate If Price is displayed for all the menu categories in uber eats******
+00:24:26.890 [main] ERROR TestValidateMenuPrice - Uber Eats site launch failed
+00:24:26.894 [main] ERROR TestValidateMenuPrice - Expected condition failed: waiting for presence of element located by: By.xpath: //hh1[contains(text(),'')] (tried for 60 second(s) with 500 milliseconds interval)
+00:41:49.776 [main] INFO  TestValidateMenuCategory - ******TC04_UE_CHROME : Starting to Validate If  all the menu categories are present in uber eats******
+00:42:55.319 [main] ERROR TestValidateMenuCategory - Uber Eats site launch failed
+00:42:55.343 [main] ERROR TestValidateMenuCategory - Expected condition failed: waiting for presence of element located by: By.xpath: //hh1[contains(text(),'')] (tried for 60 second(s) with 500 milliseconds interval)
+00:42:58.844 [main] INFO  TestValidateMenuCategory - ******TC04_UE_CHROME : Starting to Validate If  all the menu categories are present in uber eats******
+00:44:04.866 [main] ERROR TestValidateMenuCategory - Uber Eats site launch failed
+00:44:04.869 [main] ERROR TestValidateMenuCategory - Expected condition failed: waiting for presence of element located by: By.xpath: //hh1[contains(text(),'')] (tried for 60 second(s) with 500 milliseconds interval)

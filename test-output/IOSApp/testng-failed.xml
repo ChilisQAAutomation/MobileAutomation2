@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [IOSApp]">
+  <listeners>
+    <listener class-name="com.listener.framework.Listeners"/>
+    <listener class-name="com.retryconfig.framework.Transformer"/>
+  </listeners>
+  <test name="Test Chilis In IOS App(failed)">
+    <classes>
+      <class name="com.testscripts.framework.TestChilisIOSApp">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="TC06_IOS_APP_loggedInUserOrder_TestCase"/>
+          <include name="setPlatform"/>
+        </methods>
+      </class> <!-- com.testscripts.framework.TestChilisIOSApp -->
+    </classes>
+  </test> <!-- Test Chilis In IOS App(failed) -->
+</suite> <!-- Failed suite [IOSApp] -->

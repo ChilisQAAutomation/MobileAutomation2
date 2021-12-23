@@ -1,0 +1,20 @@
+23:59:58.639 [main] INFO  TestChangeLocation - ******TC02_DOORDASH_CHROME : Starting to Validate Changing Location of Doordash Chilis Addison WebApp******
+00:00:16.234 [main] INFO  TestChangeLocation - Site launch successful, site name : https://www.doordash.com/store/chili's-grill-&-bar-murrieta-1475670/
+00:00:17.504 [main] ERROR TestChangeLocation - Hamburger Menu button click failed
+00:00:17.509 [main] ERROR TestChangeLocation - element click intercepted: Element <button class="sc-izvnbC jhqntj" size="16" shape="Circle" type="button" kind="BUTTON/PLAIN" aria-label="Open Menu">...</button> is not clickable at point (20, 23). Other element would receive the click: <div class="sc-hZSUBg eeTJNT" kind="OVERLAY/DARK"></div>
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DHQWB1', ip: '10.254.55.51', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\smondal1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57474}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 9c3b38100ea11d15dc54c751a2f8b92b
+00:00:21.020 [main] INFO  TestChangeLocation - ******TC02_DOORDASH_CHROME : Starting to Validate Changing Location of Doordash Chilis Addison WebApp******
+00:00:36.163 [main] INFO  TestChangeLocation - Site launch successful, site name : https://www.doordash.com/store/chili's-grill-&-bar-murrieta-1475670/
+00:00:37.412 [main] ERROR TestChangeLocation - Hamburger Menu button click failed
+00:00:37.414 [main] ERROR TestChangeLocation - element click intercepted: Element <button class="sc-izvnbC jhqntj" size="16" shape="Circle" type="button" kind="BUTTON/PLAIN" aria-label="Open Menu">...</button> is not clickable at point (20, 23). Other element would receive the click: <div class="sc-hZSUBg eeTJNT" kind="OVERLAY/DARK"></div>
+  (Session info: chrome=95.0.4638.69)
+Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
+System info: host: 'DHQWB1', ip: '10.254.55.51', os.name: 'Windows Server 2012 R2', os.arch: 'x86', os.version: '6.3', java.version: '1.8.0_121'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.69, chrome: {chromedriverVersion: 95.0.4638.69 (6a1600ed572fe..., userDataDir: C:\Users\smondal1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:57586}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: ef86bf688a57bb0759cc3e1589f00afa

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="DoorDashIJW">
+<listeners>
+<listener class-name="com.listener.framework.Listeners"/>
+<listener class-name="com.retryconfig.framework.Transformer"/>
+</listeners>
+<test name="Test Door Dash IJW in Web browser">
+<classes>
+<class name="com.testscripts.framework.TestIJW">
+<methods>
+<exclude name="TC01_DOORDASH_IJW_LoginLogout"/>
+<exclude name="TC03_IJW_VERIFY_ADDTOCART"/>
+<exclude name="TC04_IJW_CHROME_VERIFY_Checkout"/>
+<exclude name="TC05_IJW_EnterTipAmountZero"/>
+<exclude name="TC06_IJW_VERIFY_Homepage_UI"/>
+<exclude name="TC07_IJW_ValidateMenuCategory"/>
+<exclude name="TC08_IJW_ValidateMenuDescription"/>
+<exclude name="TC09_IJW_ValidateMenuPrice"/>
+<exclude name="TC90_VERIFY_ITEM_ADDTOCART_CHECKOUT"/>
+<exclude name="TC91_ValidateItemIncreaseDecrease"/>
+<exclude name="TC92_IJW_VERIFY_ORDER_MODES"/>
+<exclude name="TC93_IJW_ValidatePickupScheduleLater"/>
+<exclude name="TC_IJW_VERIFY_PICKUP_ORDER_ASAP"/>
+<exclude name="TC94_IJW_VERIFY_DELIVERY_ORDER_ASAP"/>
+<exclude name="IJW_VERIFY_DELIVERY_ORDER_ASAP_FOR_2ITEMS"/>
+<exclude name="TC95_IJW_VERIFY_DELIVERY_SCHEDULE_ORDER_TODAY"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_DELIVERY_TOMORROW"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_REMOVEITEM_BEFORE_CHECKOUT"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_REMOVE_AN_ITEM_WHEN_MANY_PRESENT_BEFORE_CHECKOUT"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_REMOVEITEMWHEN_NO_ITEM_BEFORE_CHECKOUT"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_REMOVEITEM_AFTER_CHECKOUT"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_REMOVEITEM_AFTER_CHECKOUT_WHEN_MANYITEM_PRESENT"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_REORDER"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_VIEWORDERS"/>
+<exclude name="TC_DOORDASH_IJW_VERIFY_VIEWPREVIOUSORDERS"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

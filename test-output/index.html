@@ -1,0 +1,816 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">3 suites, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-UberEats">
+              <span class="suite-name border-failed">UberEats</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-UberEats">
+                    <span>E:\Automation\Selenium\TestNGAutomationFrameworkWebMobile\Automation\src\test\java\com\testrunner\framework\UberEatsSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-UberEats">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-UberEats">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-UberEats">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-UberEats">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-UberEats">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-UberEats">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">1 method, 1 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-UberEats" class="hide-methods failed suite-UberEats"> (hide)</a> <!-- hide-methods failed suite-UberEats -->
+                      <a href="#" panel-name="suite-UberEats" class="show-methods failed suite-UberEats"> (show)</a> <!-- show-methods failed suite-UberEats -->
+                    </span>
+                    <div class="method-list-content failed suite-UberEats">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-UberEats" title="com.testscripts.framework.TestUberEats" hash-for-method="TC04_UberEats_ValidateMenuCategory">TC04_UberEats_ValidateMenuCategory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-UberEats -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-DoorDashChilis">
+              <span class="suite-name border-passed">DoorDashChilis</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-DoorDashChilis">
+                    <span>E:\Automation\Selenium\TestNGAutomationFrameworkWebMobile\Automation\src\test\java\com\testrunner\framework\DoorDashChilisSuite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-DoorDashChilis">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-DoorDashChilis">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-DoorDashChilis">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-DoorDashChilis">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DoorDashChilis">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-DoorDashChilis">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">0 methods,   </span>
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-DoorDashIJW">
+              <span class="suite-name border-passed">DoorDashIJW</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-DoorDashIJW">
+                    <span>E:\Automation\Selenium\TestNGAutomationFrameworkWebMobile\Automation\src\test\java\com\testrunner\framework\DoorDashIJW.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-DoorDashIJW">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-DoorDashIJW">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-DoorDashIJW">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-DoorDashIJW">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-DoorDashIJW">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-DoorDashIJW">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">0 methods,   </span>
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-UberEats" class="panel UberEats">
+          <div class="suite-UberEats-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testscripts.framework.TestUberEats</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TC04_UberEats_ValidateMenuCategory">
+                  </a> <!-- TC04_UberEats_ValidateMenuCategory -->
+                  <span class="method-name">TC04_UberEats_ValidateMenuCategory</span>
+                  <div class="stack-trace">java.lang.NullPointerException
+	at com.configuration.framework.Base.stopWebTest(Base.java:152)
+	at com.pageaction.framework.FunctionalComponents.uberEats_Login(FunctionalComponents.java:12174)
+	at com.testscripts.framework.TestUberEats.TC04_UberEats_ValidateMenuCategory(TestUberEats.java:83)
+	at com.testrunner.framework.TestRunner.main(TestRunner.java:51)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-UberEats-class-failed -->
+        </div> <!-- panel UberEats -->
+        <div panel-name="suite-DoorDashChilis" class="panel DoorDashChilis">
+        </div> <!-- panel DoorDashChilis -->
+        <div panel-name="suite-DoorDashIJW" class="panel DoorDashIJW">
+        </div> <!-- panel DoorDashIJW -->
+        <div panel-name="test-xml-UberEats" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation\Selenium\TestNGAutomationFrameworkWebMobile\Automation\src\test\java\com\testrunner\framework\UberEatsSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;UberEats&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.listener.framework.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.retryconfig.framework.Transformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test Uber Eats in Web browser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testscripts.framework.TestUberEats&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TC04_UberEats_ValidateMenuCategory&quot;/&gt;
+          &lt;exclude name=&quot;TC01_UberEats_ValidateIsStoreEnabled&quot;/&gt;
+          &lt;exclude name=&quot;TC02_UberEats_ValidateStoreHomepage&quot;/&gt;
+          &lt;exclude name=&quot;TC03_UberEats_HomePage_UI&quot;/&gt;
+          &lt;exclude name=&quot;TC05_UberEats_ValidateMenuItemDescription&quot;/&gt;
+          &lt;exclude name=&quot;TC06_UberEats_ValidateMenuPrice&quot;/&gt;
+          &lt;exclude name=&quot;TC09_UberEats_ValidateMenuItemIncreaseDecrease&quot;/&gt;
+          &lt;exclude name=&quot;TC08_UberEats_Verify_AddtoCart&quot;/&gt;
+          &lt;exclude name=&quot;TC49_UberEats_changeQuantityAtCheckoutPage&quot;/&gt;
+          &lt;exclude name=&quot;TC50_UberEats_RemoveQuantityAtCheckoutPage&quot;/&gt;
+          &lt;exclude name=&quot;TC10_UberEats_Verify_OrderModes&quot;/&gt;
+          &lt;exclude name=&quot;TC31_UberEats_ValidateDifferentTimezoneOrder&quot;/&gt;
+          &lt;exclude name=&quot;TC23_UberEats_ValidateOrderSLDelivery&quot;/&gt;
+          &lt;exclude name=&quot;TC22_UberEats_ValidateOrderASAPDelivery&quot;/&gt;
+          &lt;exclude name=&quot;TC35_UberEats_ValidateOrders&quot;/&gt;
+          &lt;exclude name=&quot;TC36_UberEats_Verify_PastOrderItemAndPrice&quot;/&gt;
+          &lt;exclude name=&quot;TC51_UberEats_VERIFY_MultipleItemOrder&quot;/&gt;
+          &lt;exclude name=&quot;TC52_UberEats_ValidateItemCustomization&quot;/&gt;
+          &lt;exclude name=&quot;TC53_UberEats_Verify_AddItemInCheckoutPage&quot;/&gt;
+          &lt;exclude name=&quot;TC28_UberEats_VerifyOrderDetails&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.testscripts.framework.TestUberEats --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Uber Eats in Web browser --&gt;
+&lt;/suite&gt; &lt;!-- UberEats --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-DoorDashChilis" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation\Selenium\TestNGAutomationFrameworkWebMobile\Automation\src\test\java\com\testrunner\framework\DoorDashChilisSuite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;DoorDashChilis&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.listener.framework.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.retryconfig.framework.Transformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test Door Dash Chilis in Web browser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testscripts.framework.TestDoorDashChilis&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;TC02_DOORDASH_CHROME_ChangeLocation&quot;/&gt;
+          &lt;exclude name=&quot;TC03_DOORDASH_CHROME_VERIFY_ADDTOCART&quot;/&gt;
+          &lt;exclude name=&quot;TC04_DOORDASH_CHROME_VERIFY_Checkout&quot;/&gt;
+          &lt;exclude name=&quot;TC05_DOORDASH_CHROME_EnterTipAmountZero&quot;/&gt;
+          &lt;exclude name=&quot;TC06_DOORDASH_CHROME_VERIFY_Homepage_UI&quot;/&gt;
+          &lt;exclude name=&quot;TC07_DOORDASH_CHROME_ValidateMenuCategory&quot;/&gt;
+          &lt;exclude name=&quot;TC90_DOORDASH_CHROME_VERIFY_ITEM_ADDTOCART_CHECKOUT&quot;/&gt;
+          &lt;exclude name=&quot;TC91_DOORDASH_CHROME_ValidateItemIncreaseDecrease&quot;/&gt;
+          &lt;exclude name=&quot;TC101_DOORDASH_CHROME_ValidateItemCustomization&quot;/&gt;
+          &lt;exclude name=&quot;TC92_DOORDASH_CHROME_VERIFY_ORDER_MODES&quot;/&gt;
+          &lt;exclude name=&quot;TC94_DOORDASH_CHROME_VERIFY_DELIVERY_ORDER_ASAP_MargaritaGrilledChicken&quot;/&gt;
+          &lt;exclude name=&quot;TC08_DOORDASH_CHROME_ValidateMenuItemDescription&quot;/&gt;
+          &lt;exclude name=&quot;TC09_DOORDASH_CHROME_ValidateMenuItemPrice&quot;/&gt;
+          &lt;exclude name=&quot;TC93_DOORDASH_CHROME_ValidatePickupScheduleLater_QuesadillaExplosionSalad&quot;/&gt;
+          &lt;exclude name=&quot;TC95_DOORDASH_CHROME_VERIFY_DELIVERY_SCHEDULE_ORDER_CrispyChickenCrispers&quot;/&gt;
+          &lt;exclude name=&quot;TC97_DOORDASH_CHROME_VERIFY_DELIVERY_ORDER_ASAP_LunchComboSpicyShrimpTacos&quot;/&gt;
+          &lt;exclude name=&quot;TC98_DOORDASH_CHROME_VERIFY_DELIVERY_SCHEDULE_ORDER_MoltenChocolateCake&quot;/&gt;
+          &lt;exclude name=&quot;TC99_DOORDASH_CHROME_ValidatePickupScheduleLater_BaconRanchChickenQuesadillas&quot;/&gt;
+          &lt;exclude name=&quot;TC96_DOORDASH_CHROME_ValidatePickupAsap_GrilledChickenSalad&quot;/&gt;
+          &lt;exclude name=&quot;TC100_DOORDASH_CHROME_ValidatePickupAsap_UltimateSmokehouseCombo&quot;/&gt;
+          &lt;exclude name=&quot;TC03_DOORDASH_CHROME_VERIFY_REMOVEITEM&quot;/&gt;
+          &lt;exclude name=&quot;TC102_DOORDASH_CHROME_VERIFY_MultipleItemOrder&quot;/&gt;
+          &lt;exclude name=&quot;TC103_DOORDASH_CHROME_VERIFY_AddMoreItems&quot;/&gt;
+          &lt;exclude name=&quot;TC104_DOORDASH_CHROME_VERIFY_ItemIncreaseDecreaseAfterCheckout&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.testscripts.framework.TestDoorDashChilis --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Door Dash Chilis in Web browser --&gt;
+&lt;/suite&gt; &lt;!-- DoorDashChilis --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="test-xml-DoorDashIJW" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\Automation\Selenium\TestNGAutomationFrameworkWebMobile\Automation\src\test\java\com\testrunner\framework\DoorDashIJW.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;DoorDashIJW&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.listener.framework.Listeners&quot;/&gt;
+    &lt;listener class-name=&quot;com.retryconfig.framework.Transformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test Door Dash IJW in Web browser&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testscripts.framework.TestIJW&quot;&gt;
+        &lt;methods&gt;
+          &lt;exclude name=&quot;TC01_DOORDASH_IJW_LoginLogout&quot;/&gt;
+          &lt;exclude name=&quot;TC03_IJW_VERIFY_ADDTOCART&quot;/&gt;
+          &lt;exclude name=&quot;TC04_IJW_CHROME_VERIFY_Checkout&quot;/&gt;
+          &lt;exclude name=&quot;TC05_IJW_EnterTipAmountZero&quot;/&gt;
+          &lt;exclude name=&quot;TC06_IJW_VERIFY_Homepage_UI&quot;/&gt;
+          &lt;exclude name=&quot;TC07_IJW_ValidateMenuCategory&quot;/&gt;
+          &lt;exclude name=&quot;TC08_IJW_ValidateMenuDescription&quot;/&gt;
+          &lt;exclude name=&quot;TC09_IJW_ValidateMenuPrice&quot;/&gt;
+          &lt;exclude name=&quot;TC90_VERIFY_ITEM_ADDTOCART_CHECKOUT&quot;/&gt;
+          &lt;exclude name=&quot;TC91_ValidateItemIncreaseDecrease&quot;/&gt;
+          &lt;exclude name=&quot;TC92_IJW_VERIFY_ORDER_MODES&quot;/&gt;
+          &lt;exclude name=&quot;TC93_IJW_ValidatePickupScheduleLater&quot;/&gt;
+          &lt;exclude name=&quot;TC_IJW_VERIFY_PICKUP_ORDER_ASAP&quot;/&gt;
+          &lt;exclude name=&quot;TC94_IJW_VERIFY_DELIVERY_ORDER_ASAP&quot;/&gt;
+          &lt;exclude name=&quot;IJW_VERIFY_DELIVERY_ORDER_ASAP_FOR_2ITEMS&quot;/&gt;
+          &lt;exclude name=&quot;TC95_IJW_VERIFY_DELIVERY_SCHEDULE_ORDER_TODAY&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_DELIVERY_TOMORROW&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_REMOVEITEM_BEFORE_CHECKOUT&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_REMOVE_AN_ITEM_WHEN_MANY_PRESENT_BEFORE_CHECKOUT&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_REMOVEITEMWHEN_NO_ITEM_BEFORE_CHECKOUT&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_REMOVEITEM_AFTER_CHECKOUT&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_REMOVEITEM_AFTER_CHECKOUT_WHEN_MANYITEM_PRESENT&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_REORDER&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_VIEWORDERS&quot;/&gt;
+          &lt;exclude name=&quot;TC_DOORDASH_IJW_VERIFY_VIEWPREVIOUSORDERS&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.testscripts.framework.TestIJW --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test Door Dash IJW in Web browser --&gt;
+&lt;/suite&gt; &lt;!-- DoorDashIJW --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-UberEats" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for UberEats</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Uber Eats in Web browser (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DoorDashChilis" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DoorDashChilis</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Door Dash Chilis in Web browser (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-DoorDashIJW" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for DoorDashIJW</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test Door Dash IJW in Web browser (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-UberEats" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for UberEats</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DoorDashChilis" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DoorDashChilis</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-DoorDashIJW" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for DoorDashIJW</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-UberEats" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for UberEats</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_UberEats');
+function tableData_UberEats() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(1);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TC04_UberEats_ValidateMenuCategory')
+data.setCell(0, 2, 'com.testscripts.framework.TestUberEats')
+data.setCell(0, 3, 66027);
+window.suiteTableData['UberEats']= { tableData: data, tableDiv: 'times-div-UberEats'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 1 minutes</span>
+              <div id="times-div-UberEats">
+              </div> <!-- times-div-UberEats -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DoorDashChilis" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DoorDashChilis</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DoorDashChilis');
+function tableData_DoorDashChilis() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['DoorDashChilis']= { tableData: data, tableDiv: 'times-div-DoorDashChilis'}
+return data;
+}
+              </script>
+              <div id="times-div-DoorDashChilis">
+              </div> <!-- times-div-DoorDashChilis -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-DoorDashIJW" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for DoorDashIJW</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_DoorDashIJW');
+function tableData_DoorDashIJW() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(0);
+window.suiteTableData['DoorDashIJW']= { tableData: data, tableDiv: 'times-div-DoorDashIJW'}
+return data;
+}
+              </script>
+              <div id="times-div-DoorDashIJW">
+              </div> <!-- times-div-DoorDashIJW -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-UberEats" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for UberEats</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DoorDashChilis" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DoorDashChilis</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-DoorDashIJW" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for DoorDashIJW</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-UberEats" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">19 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testscripts.framework.TestUberEats</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC03_UberEats_HomePage_UI</span>
+                <br/>
+                <span class="ignored-method-name">TC02_UberEats_ValidateStoreHomepage</span>
+                <br/>
+                <span class="ignored-method-name">TC23_UberEats_ValidateOrderSLDelivery</span>
+                <br/>
+                <span class="ignored-method-name">TC06_UberEats_ValidateMenuPrice</span>
+                <br/>
+                <span class="ignored-method-name">TC31_UberEats_ValidateDifferentTimezoneOrder</span>
+                <br/>
+                <span class="ignored-method-name">TC51_UberEats_VERIFY_MultipleItemOrder</span>
+                <br/>
+                <span class="ignored-method-name">TC22_UberEats_ValidateOrderASAPDelivery</span>
+                <br/>
+                <span class="ignored-method-name">TC10_UberEats_Verify_OrderModes</span>
+                <br/>
+                <span class="ignored-method-name">TC01_UberEats_ValidateIsStoreEnabled</span>
+                <br/>
+                <span class="ignored-method-name">TC49_UberEats_changeQuantityAtCheckoutPage</span>
+                <br/>
+                <span class="ignored-method-name">TC35_UberEats_ValidateOrders</span>
+                <br/>
+                <span class="ignored-method-name">TC53_UberEats_Verify_AddItemInCheckoutPage</span>
+                <br/>
+                <span class="ignored-method-name">TC28_UberEats_VerifyOrderDetails</span>
+                <br/>
+                <span class="ignored-method-name">TC36_UberEats_Verify_PastOrderItemAndPrice</span>
+                <br/>
+                <span class="ignored-method-name">TC52_UberEats_ValidateItemCustomization</span>
+                <br/>
+                <span class="ignored-method-name">TC05_UberEats_ValidateMenuItemDescription</span>
+                <br/>
+                <span class="ignored-method-name">TC50_UberEats_RemoveQuantityAtCheckoutPage</span>
+                <br/>
+                <span class="ignored-method-name">TC09_UberEats_ValidateMenuItemIncreaseDecrease</span>
+                <br/>
+                <span class="ignored-method-name">TC08_UberEats_Verify_AddtoCart</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DoorDashChilis" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">24 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testscripts.framework.TestDoorDashChilis</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC97_DOORDASH_CHROME_VERIFY_DELIVERY_ORDER_ASAP_LunchComboSpicyShrimpTacos</span>
+                <br/>
+                <span class="ignored-method-name">TC03_DOORDASH_CHROME_VERIFY_ADDTOCART</span>
+                <br/>
+                <span class="ignored-method-name">TC96_DOORDASH_CHROME_ValidatePickupAsap_GrilledChickenSalad</span>
+                <br/>
+                <span class="ignored-method-name">TC101_DOORDASH_CHROME_ValidateItemCustomization</span>
+                <br/>
+                <span class="ignored-method-name">TC90_DOORDASH_CHROME_VERIFY_ITEM_ADDTOCART_CHECKOUT</span>
+                <br/>
+                <span class="ignored-method-name">TC99_DOORDASH_CHROME_ValidatePickupScheduleLater_BaconRanchChickenQuesadillas</span>
+                <br/>
+                <span class="ignored-method-name">TC09_DOORDASH_CHROME_ValidateMenuItemPrice</span>
+                <br/>
+                <span class="ignored-method-name">TC91_DOORDASH_CHROME_ValidateItemIncreaseDecrease</span>
+                <br/>
+                <span class="ignored-method-name">TC03_DOORDASH_CHROME_VERIFY_REMOVEITEM</span>
+                <br/>
+                <span class="ignored-method-name">TC05_DOORDASH_CHROME_EnterTipAmountZero</span>
+                <br/>
+                <span class="ignored-method-name">TC07_DOORDASH_CHROME_ValidateMenuCategory</span>
+                <br/>
+                <span class="ignored-method-name">TC02_DOORDASH_CHROME_ChangeLocation</span>
+                <br/>
+                <span class="ignored-method-name">TC93_DOORDASH_CHROME_ValidatePickupScheduleLater_QuesadillaExplosionSalad</span>
+                <br/>
+                <span class="ignored-method-name">TC98_DOORDASH_CHROME_VERIFY_DELIVERY_SCHEDULE_ORDER_MoltenChocolateCake</span>
+                <br/>
+                <span class="ignored-method-name">TC104_DOORDASH_CHROME_VERIFY_ItemIncreaseDecreaseAfterCheckout</span>
+                <br/>
+                <span class="ignored-method-name">TC94_DOORDASH_CHROME_VERIFY_DELIVERY_ORDER_ASAP_MargaritaGrilledChicken</span>
+                <br/>
+                <span class="ignored-method-name">TC100_DOORDASH_CHROME_ValidatePickupAsap_UltimateSmokehouseCombo</span>
+                <br/>
+                <span class="ignored-method-name">TC95_DOORDASH_CHROME_VERIFY_DELIVERY_SCHEDULE_ORDER_CrispyChickenCrispers</span>
+                <br/>
+                <span class="ignored-method-name">TC04_DOORDASH_CHROME_VERIFY_Checkout</span>
+                <br/>
+                <span class="ignored-method-name">TC102_DOORDASH_CHROME_VERIFY_MultipleItemOrder</span>
+                <br/>
+                <span class="ignored-method-name">TC06_DOORDASH_CHROME_VERIFY_Homepage_UI</span>
+                <br/>
+                <span class="ignored-method-name">TC08_DOORDASH_CHROME_ValidateMenuItemDescription</span>
+                <br/>
+                <span class="ignored-method-name">TC92_DOORDASH_CHROME_VERIFY_ORDER_MODES</span>
+                <br/>
+                <span class="ignored-method-name">TC103_DOORDASH_CHROME_VERIFY_AddMoreItems</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-DoorDashIJW" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">25 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.testscripts.framework.TestIJW</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">TC94_IJW_VERIFY_DELIVERY_ORDER_ASAP</span>
+                <br/>
+                <span class="ignored-method-name">IJW_VERIFY_DELIVERY_ORDER_ASAP_FOR_2ITEMS</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_DELIVERY_TOMORROW</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_REMOVEITEM_AFTER_CHECKOUT_WHEN_MANYITEM_PRESENT</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_REMOVE_AN_ITEM_WHEN_MANY_PRESENT_BEFORE_CHECKOUT</span>
+                <br/>
+                <span class="ignored-method-name">TC91_ValidateItemIncreaseDecrease</span>
+                <br/>
+                <span class="ignored-method-name">TC01_DOORDASH_IJW_LoginLogout</span>
+                <br/>
+                <span class="ignored-method-name">TC06_IJW_VERIFY_Homepage_UI</span>
+                <br/>
+                <span class="ignored-method-name">TC_IJW_VERIFY_PICKUP_ORDER_ASAP</span>
+                <br/>
+                <span class="ignored-method-name">TC93_IJW_ValidatePickupScheduleLater</span>
+                <br/>
+                <span class="ignored-method-name">TC92_IJW_VERIFY_ORDER_MODES</span>
+                <br/>
+                <span class="ignored-method-name">TC90_VERIFY_ITEM_ADDTOCART_CHECKOUT</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_VIEWORDERS</span>
+                <br/>
+                <span class="ignored-method-name">TC09_IJW_ValidateMenuPrice</span>
+                <br/>
+                <span class="ignored-method-name">TC07_IJW_ValidateMenuCategory</span>
+                <br/>
+                <span class="ignored-method-name">TC03_IJW_VERIFY_ADDTOCART</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_REORDER</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_REMOVEITEMWHEN_NO_ITEM_BEFORE_CHECKOUT</span>
+                <br/>
+                <span class="ignored-method-name">TC04_IJW_CHROME_VERIFY_Checkout</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_REMOVEITEM_BEFORE_CHECKOUT</span>
+                <br/>
+                <span class="ignored-method-name">TC95_IJW_VERIFY_DELIVERY_SCHEDULE_ORDER_TODAY</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_VIEWPREVIOUSORDERS</span>
+                <br/>
+                <span class="ignored-method-name">TC_DOORDASH_IJW_VERIFY_REMOVEITEM_AFTER_CHECKOUT</span>
+                <br/>
+                <span class="ignored-method-name">TC08_IJW_ValidateMenuDescription</span>
+                <br/>
+                <span class="ignored-method-name">TC05_IJW_EnterTipAmountZero</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-UberEats" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscripts.framework.TestUberEats</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setPlatform</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">555 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TC04_UberEats_ValidateMenuCategory</span>
+                <span class="method-start">4189 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">70746 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">initialize</span>
+                <span class="method-start">71958 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">TC04_UberEats_ValidateMenuCategory</span>
+                <span class="method-start">74237 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">140971 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DoorDashChilis" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscripts.framework.TestDoorDashChilis</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setPlatform</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-DoorDashIJW" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testscripts.framework.TestIJW</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">setPlatform</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

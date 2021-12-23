@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [AndroidBrowser]">
+  <listeners>
+    <listener class-name="com.listener.framework.Listeners"/>
+    <listener class-name="com.retryconfig.framework.Transformer"/>
+  </listeners>
+  <test name="Test Chilis In Android Browser(failed)">
+    <classes>
+      <class name="com.testscripts.framework.TestChilisAndroidBrowser">
+        <methods>
+          <include name="setPlatform"/>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="TC01_ANDROID_BROWSER_LoginLogout_TestCase"/>
+        </methods>
+      </class> <!-- com.testscripts.framework.TestChilisAndroidBrowser -->
+    </classes>
+  </test> <!-- Test Chilis In Android Browser(failed) -->
+</suite> <!-- Failed suite [AndroidBrowser] -->

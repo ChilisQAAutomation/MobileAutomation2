@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "testng-1.0.dtd">
+<suite name="DoorDashChilis">
+<listeners>
+<listener class-name="com.listener.framework.Listeners"/>
+<listener class-name="com.retryconfig.framework.Transformer"/>
+</listeners>
+<test name="Test Door Dash Chilis in Web browser">
+<classes>
+<class name="com.testscripts.framework.TestDoorDashChilis">
+<methods>
+<exclude name="TC02_DOORDASH_CHROME_ChangeLocation"/>
+<exclude name="TC03_DOORDASH_CHROME_VERIFY_ADDTOCART"/>
+<exclude name="TC04_DOORDASH_CHROME_VERIFY_Checkout"/>
+<exclude name="TC05_DOORDASH_CHROME_EnterTipAmountZero"/>
+<exclude name="TC06_DOORDASH_CHROME_VERIFY_Homepage_UI"/>
+<exclude name="TC07_DOORDASH_CHROME_ValidateMenuCategory"/>
+<exclude name="TC90_DOORDASH_CHROME_VERIFY_ITEM_ADDTOCART_CHECKOUT"/>
+<exclude name="TC91_DOORDASH_CHROME_ValidateItemIncreaseDecrease"/>
+<exclude name="TC101_DOORDASH_CHROME_ValidateItemCustomization"/>
+<exclude name="TC92_DOORDASH_CHROME_VERIFY_ORDER_MODES"/>
+<exclude name="TC94_DOORDASH_CHROME_VERIFY_DELIVERY_ORDER_ASAP_MargaritaGrilledChicken"/>
+<exclude name="TC08_DOORDASH_CHROME_ValidateMenuItemDescription"/>
+<exclude name="TC09_DOORDASH_CHROME_ValidateMenuItemPrice"/>
+<exclude name="TC93_DOORDASH_CHROME_ValidatePickupScheduleLater_QuesadillaExplosionSalad"/>
+<exclude name="TC95_DOORDASH_CHROME_VERIFY_DELIVERY_SCHEDULE_ORDER_CrispyChickenCrispers"/>
+<exclude name="TC97_DOORDASH_CHROME_VERIFY_DELIVERY_ORDER_ASAP_LunchComboSpicyShrimpTacos"/>
+<exclude name="TC98_DOORDASH_CHROME_VERIFY_DELIVERY_SCHEDULE_ORDER_MoltenChocolateCake"/>
+<exclude name="TC99_DOORDASH_CHROME_ValidatePickupScheduleLater_BaconRanchChickenQuesadillas"/>
+<exclude name="TC96_DOORDASH_CHROME_ValidatePickupAsap_GrilledChickenSalad"/>
+<exclude name="TC100_DOORDASH_CHROME_ValidatePickupAsap_UltimateSmokehouseCombo"/>
+<exclude name="TC03_DOORDASH_CHROME_VERIFY_REMOVEITEM"/>
+<exclude name="TC102_DOORDASH_CHROME_VERIFY_MultipleItemOrder"/>
+<exclude name="TC103_DOORDASH_CHROME_VERIFY_AddMoreItems"/>
+<exclude name="TC104_DOORDASH_CHROME_VERIFY_ItemIncreaseDecreaseAfterCheckout"/>
+</methods>
+</class>
+</classes>
+</test>
+</suite>

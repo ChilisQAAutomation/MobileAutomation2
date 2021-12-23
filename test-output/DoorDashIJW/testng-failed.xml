@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DoorDashIJW]">
+  <listeners>
+    <listener class-name="com.listener.framework.Listeners"/>
+    <listener class-name="com.retryconfig.framework.Transformer"/>
+  </listeners>
+  <test name="Test Door Dash IJW in Web browser(failed)">
+    <classes>
+      <class name="com.testscripts.framework.TestIJW">
+        <methods>
+          <include name="TC01_DOORDASH_IJW_LoginLogout"/>
+          <include name="TC03_IJW_VERIFY_ADDTOCART"/>
+          <include name="tearDown"/>
+          <include name="setPlatform"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- com.testscripts.framework.TestIJW -->
+    </classes>
+  </test> <!-- Test Door Dash IJW in Web browser(failed) -->
+</suite> <!-- Failed suite [DoorDashIJW] -->

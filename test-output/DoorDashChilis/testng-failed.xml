@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [DoorDashChilis]">
+  <listeners>
+    <listener class-name="com.listener.framework.Listeners"/>
+    <listener class-name="com.retryconfig.framework.Transformer"/>
+  </listeners>
+  <test name="Test Door Dash Chilis in Web browser(failed)">
+    <classes>
+      <class name="com.testscripts.framework.TestDoorDashChilis">
+        <methods>
+          <include name="initialize"/>
+          <include name="tearDown"/>
+          <include name="TC90_DOORDASH_CHROME_VERIFY_ITEM_ADDTOCART_CHECKOUT"/>
+          <include name="setPlatform"/>
+        </methods>
+      </class> <!-- com.testscripts.framework.TestDoorDashChilis -->
+    </classes>
+  </test> <!-- Test Door Dash Chilis in Web browser(failed) -->
+</suite> <!-- Failed suite [DoorDashChilis] -->

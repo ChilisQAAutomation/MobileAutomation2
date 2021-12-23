@@ -1,0 +1,5 @@
+18:26:59.789 [main] INFO  LoginLogoutTestCase - ******TC22_IOS_BROWSER_QA2 : Starting to Validate Login and Logout functionality of Chilis WebApp******
+18:27:01.059 [main] INFO  LoginLogoutTestCase - Starting QA site validation
+18:27:02.838 [main] INFO  LoginLogoutTestCase - Site launch successful : https://qa3.chilis.com
+18:27:02.841 [main] ERROR LoginLogoutTestCase - QA site launch failed
+19:36:54.372 [main] INFO  TestChangeLocation - ******TC02_DOORDASH_CHROME : Starting to Validate Changing Location of Doordash Chilis Addison WebApp******

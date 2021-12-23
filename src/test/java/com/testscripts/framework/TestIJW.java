@@ -173,6 +173,7 @@ public void TC90_VERIFY_ITEM_ADDTOCART_CHECKOUT() throws InterruptedException
 	func.webClickAddToOrderIJW();
 	func.webVerifyOrderItem_QtyIJW();
 	func.webRemoveItemIJW(6);
+
 }
 
 

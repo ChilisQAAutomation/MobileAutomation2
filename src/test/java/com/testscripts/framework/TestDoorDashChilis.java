@@ -144,6 +144,7 @@ public RemoteWebDriver driver = null;
 		func.webLogin();
 		func.webSetLocation();
 		func.webValidateMenuCategories();
+
 	}
 		
 		@Test(priority=7)
